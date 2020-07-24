@@ -1,6 +1,6 @@
-# Lapis Docker Boilerplate
+# Dockerized Lapis Boilerplate
 
-a boilerplate with pre-configured lapis with docker
+A boilerplate with pre-configured lapis with docker
 
 ## Built with
 
