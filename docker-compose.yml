@@ -1,0 +1,14 @@
+version: "3"
+services:
+    app:
+        image: lapis-demo:latest
+        container_name: app
+        restart: unless-stopped
+        build:
+            # build the image from Dockerfile
+            context: ./app
+        volumes:
+            - ./app:/code
+        command: lapis server
+        ports:
+            - "8080:8080"
